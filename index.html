@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Section</title>
+<!-- Bootstrap CSS -->
+<!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">-->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<!---------------------------------------------------------------------------------------------->
+<style>
+  .about-section {
+    text-align: center;
+    padding: 50px 0;
+  }
+  .about-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  .about-section img {
+    width: 200px; /* Adjust the size as needed */
+    height: 200px;
+    border-radius: 50%; /* Makes the image round */
+    margin-bottom: 20px;
+  }
+  .about-section p {
+    color: #333;
+  }
+
+  /* Additional CSS for Projects Section */
+.projects-section h2 {
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+}
+.card {
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Adds a subtle shadow around the card */
+}
+.card-img-top {
+  max-height: 180px; /* Adjust this value to fit the image properly in the card */
+  object-fit: cover; /* This makes sure the image covers the area properly */
+}
+.card-body {
+  padding: 15px;
+}
+.card-title {
+  font-size: 1.25rem;
+}
+.card-text {
+  margin-bottom: 15px;
+}
+
+/* Additional CSS for Skills Section */
+.skills-section h2 {
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+}
+.skills-section .card {
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.skills-section .card-img-top {
+  padding: 20px; /* Add padding around your images if needed */
+  background-color: #f8f9fa; /* Adjust the background color if your images have transparent areas */
+  height: 180px; /* Fixed height for consistency */
+  object-fit: contain; /* This will make sure the image is scaled properly within the container */
+}
+.skills-section .card-body {
+  padding: 15px;
+}
+.skills-section .card-title {
+  font-size: 1.25rem;
+  margin-bottom: 15px;
+}
+.skills-section .btn-outline-primary {
+  color: #007bff;
+  border-color: #007bff;
+}
+.skills-section .btn-outline-primary:hover {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+/* Additional CSS for Contact Section */
+.contact-section {
+  padding: 50px 0;
+}
+.contact-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+.contact-section p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+.social-icon {
+  width: 50px; /* Size of your icons */
+  margin-bottom: 10px;
+}
+/* Hover effect for icons */
+.social-icon:hover {
+  opacity: 0.7;
+}
+/* Style for links in the Contact section */
+.contact-section a {
+  color: #fff;
+  text-decoration: none; /* Removes underline from links */
+  display: inline-block; /* Allows for margin on the bottom */
+  margin-bottom: 10px;
+}
+.contact-section a:hover {
+  color: #ddd; /* Color when hovering over the link */
+}
+
+/* CSS for Sticky Navbar */
+.navbar {
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Adds a shadow for depth */
+}
+
+/* Ensure padding is added to body to avoid content being hidden behind the navbar */
+body { 
+  padding-top: 56px; /* Adjust this value based on the height of your navbar */
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Style for navigation bar links */
+.navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f8f9fa; /* Slightly lighter white when hovering over links */
+}
+
+/* Media query for responsive navbar collapsing */
+@media (max-width: 992px) {
+  .navbar-collapse {
+    background-color: #343a40; /* Same as navbar color for seamless look */
+  }
+}
+
+
+</style>
+
+</head>
+<body>
+
+<section id='about' class="about-section">
+  <div class="container">
+    <h2>About</h2>
+    <img src="Pictures/D_V.jpeg" alt="About Me">
+    <p>Hi, I'm Samuel. Welcome to my page!</p>
+    <p style="text-align: justify;">I hold bachelor's degrees in Computer Science and Mathematics and currently work 
+      as a freelance Data Analyst, specializing in interpreting complex datasets to drive 
+      business decisions.My expertise includes statistical analysis, data visualization, 
+      and leveraging tools like SQL, Excel, Python, and Power BI to extract meaningful 
+      insights. I am passionate about using data to solve real-world problems and have 
+      worked on multiple projects, particularly in retail and customer behavior analysis.
+    </p>
+    <p style="text-align: justify;">I thrive on transforming raw data into actionable strategies that enhance business performance. With a keen eye for patterns and trends, I enjoy tackling complex analytical challenges and delivering data-driven solutions. My experience working with diverse datasets has strengthened my ability to communicate insights effectively, enabling organizations to make informed decisions with confidence.</p>
+  </div>
+</section>
+
+
+<!-- Projects Section -->
+<section id="projects" class="projects-section bg-light" id="projects">
+  <div class="container">
+    <h2 class="text-center">Projects</h2>
+    <div class="row">
+      <!-- Project 1 -->
+
+      <!--
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="P1.jpeg" class="card-img-top" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title">Project 1</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed nisl erat. Sed et purus ornare, eleifend tellus ut, fermentum arcu.</p>
+            <a href="#" class="btn btn-primary">Blog Post</a>
+            <a href="#" class="btn btn-secondary">Source Code</a>
+          </div>
+        </div>
+      </div>
+    -->
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="Pictures/p1.jpg" class="card-img-top" alt="Project 2">
+        <div class="card-body">
+          <h5 class="card-title">Project 1 <br> Data Analysis of Top 100 TikTokers in 2025</h5>
+          <p class="card-text">Data Analysis of Top 100 TikTokers in 2025
+
+            This project explores the performance and trends of the top 100 TikTok influencers in 2025 by analyzing critical data points like followers, likes, upload frequency, and user engagement. By examining how these influencers attract and maintain large audiences, the project uncovers key factors contributing to viral success. The insights gained help in understanding content strategies, user interaction patterns, and the overall influence of TikTok personalities in shaping social media trends.<br>I utilized PostgreSQL for efficient data management, Power BI for interactive visualizations and trend analysis, and Python for data validation and processing to ensure accuracy and consistency throughout the analysis.
+
+          </p>
+          <a href="#" class="btn btn-primary">Blog Post</a>
+          <a href="#" class="btn btn-secondary">Source Code</a>
+        </div>
+      </div>
+    </div>
+      <!--====================================================================-->
+      <!-- Project 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="Pictures/P2.jpg" class="card-img-top" alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title">Project 2 <br> Customer Churn Analysis Project</h5>
+            <p class="card-text">This project focuses on analyzing customer churn using PostgreSQL, Power BI, and Excel. By examining customer behavior data—including attributes like tenure, services used, payment methods, and monthly charges—the goal is to identify key drivers that influence churn. Through data processing and visualization, the project uncovers patterns and insights to help businesses develop more effective retention strategies, aiming to reduce churn and improve customer loyalty.</p>
+            <!--<a href="#" class="btn btn-primary">Blog Post</a>
+            <a href="#" class="btn btn-secondary">Source Code</a> -->
+            <a href="https://medium.com/@yourname/customer-churn-analysis" class="btn btn-primary">Read Blog Post</a>
+            <a href="https://github.com/yourusername/customer-churn-analysis" class="btn btn-secondary">View Source Code</a>
+          </div>
+        </div>
+      </div>
+      <!-- Project 3-->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="Pictures/p3.jpg" class="card-img-top" alt="Project 3">
+          <div class="card-body">
+            <h5 class="card-title">Project 3 <br> Global Health Trends Analysis</h5>
+            <p class="card-text">In this project, I analyzed global health trends using datasets from sources like WHO and CDC to predict future health needs and identify emerging threats such as antibiotic resistance, obesity, and mental health issues. I utilized PostgreSQL for data management, Power BI for interactive visualizations, and Python for data validation and analysis. The insights from this project aimed to support proactive public health decision-making and policy development.</p>
+            <a href="#" class="btn btn-primary">Blog Post</a>
+            <a href="#" class="btn btn-secondary">Source Code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- Skills Section -->
+<section id="skills" class="skills-section bg-white" id="skills">
+  <div class="container">
+    <h2 class="text-center">Skills</h2>
+    <div class="row">
+      <!-- Skill 1 -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="Pictures/py.jpg" class="card-img-top" alt="Python">
+          <div class="card-body">
+            <h5 class="card-title">Python</h5>
+            <p class="card-text">Python: Proficient in data cleaning, manipulation, and analysis using libraries like pandas, numpy, and scipy. Skilled in data visualization with matplotlib and seaborn, and automating tasks with scripts. Comfortable with machine learning basics using scikit-learn for predictive analysis.</p>
+            <a href="#" class="btn btn-outline-primary">Link to course or bootcamp</a>
+          </div>
+        </div>
+      </div>
+      <!-- Skill 2 -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="Pictures/v1.jpg" class="card-img-top" alt="Data Visualization">
+          <div class="card-body">
+            <h5 class="card-title">Data Visualization</h5>
+            <p class="card-text">Data Visualization: Experienced in creating clear, impactful visualizations using tools like Tableau, Power BI, and Python libraries (matplotlib, seaborn). Skilled in designing interactive dashboards, charts, and graphs to effectively communicate data insights and trends.</p>
+            <a href="#" class="btn btn-outline-primary">Link to course or bootcamp</a>
+          </div>
+        </div>
+      </div>
+      <!-- Skill 3 -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="Pictures/SQL.jpg" class="card-img-top" alt="SQL">
+          <div class="card-body">
+            <h5 class="card-title">SQL</h5>
+            <p class="card-text">SQL: Proficient in writing complex queries for data extraction, manipulation, and analysis. Experienced with joins, subqueries, aggregations, and optimizing queries for performance to analyze large datasets efficiently.</p>
+            <a href="#" class="btn btn-outline-primary">Link to course or bootcamp</a>
+          </div>
+        </div>
+      </div>
+      <!-- Skill 4 -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="Pictures/Dstory.jpg" class="card-img-top" alt="Data Storytelling">
+          <div class="card-body">
+            <h5 class="card-title">Data Storytelling</h5>
+            <p class="card-text">Data Storytelling: Skilled in transforming complex data into compelling narratives using visualizations and key insights. Proficient in structuring data-driven stories to highlight trends, patterns, and actionable conclusions for diverse audiences, ensuring clarity and impact.</p>
+            <a href="#" class="btn btn-outline-primary">Link to course or bootcamp</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Me Section -->
+<section id="contact" class="contact-section text-center text-white bg-dark">
+  <div class="container">
+    <h2>Contact Me</h2>
+    <div class="row">
+      <div class="col-lg-6">
+        <p><i class="fas fa-envelope"></i> sam.mzele@gmail.com</p>
+      </div>
+      <div class="col-lg-6">
+        <p><i class="fas fa-phone"></i> 415xxxxxxx</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-2 col-md-4 mb-4">
+        <a href="https://linkedin.com/in/samuelzeleke" target="_blank">
+          <img src="Pictures/LinkI.jpg" alt="LinkedIn" class="social-icon">
+          LinkedIn
+        </a>
+      </div>
+      <div class="col-lg-2 col-md-4 mb-4">
+        <a href="https://twitter.com/@samuel_zel65894" target="_blank">
+          <img src="Pictures/Twit.jpg" alt="Twitter" class="social-icon">
+          Twitter
+        </a>
+      </div>
+      <div class="col-lg-2 col-md-4 mb-4">
+        <a href="https://github.com/samuelzeleke27" target="_blank">
+          <img src="Pictures/Git.jpg" alt="GitHub" class="social-icon">
+          GitHub
+        </a>
+      </div>
+      <div class="col-lg-2 col-md-4 mb-4">
+        <a href="https://medium.com/@samuelmaru23" target="_blank">
+          <img src="icons/medium.png" alt="Medium" class="social-icon">
+          Medium
+        </a>
+      </div>
+      <div class="col-lg-2 col-md-4 mb-4">
+        <a href="https://youtube.com/c/yourchannel" target="_blank">
+          <img src="icons/youtube.png" alt="YouTube" class="social-icon">
+          YouTube
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Sticky Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#home">Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- Bootstrap JS and dependencies (jQuery and Popper) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.9.5/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
